@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(FastNoise)
+project(FastNoise VERSION 0.4 LANGUAGES CXX)
 
 add_library(${PROJECT_NAME} FastNoise.cpp)
 
@@ -22,3 +22,4 @@ set_target_properties(
         CXX_STANDARD 17
         CXX_STANDARD_REQUIRED ON
 )
+
